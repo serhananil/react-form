@@ -93,14 +93,8 @@ function SignUpForm() {
                                     <div className="col-6 mb-4">
                                         {/*Second Name*/}
                                         <div className="form-group ">
-                                            <label htmlFor="secondName" className=" form-label">Second Name
-                                                {errors.secondName && touched.secondName ? (
-                                                    <span
-                                                        className="ms-2 fw-light text-danger">{errors.secondName}</span>
-                                                ) : null}
-                                            </label>
-                                            <Field id={'secondName'} name={'secondName'} className={'form-control'}
-                                                   validate={validateName}/>
+                                            <label htmlFor="secondName" className=" form-label">Second Name</label>
+                                            <Field id={'secondName'} name={'secondName'} className={'form-control'}/>
                                         </div>
                                     </div>
                                     <div className="col-6 mb-4">
